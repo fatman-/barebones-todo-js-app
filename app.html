@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>A Bare-bones ToDo App</title>
+        <script src="lib/appInterface.js"></script>
+        <script src="lib/appView.js"></script>
+    </head>
+
+    <body>
+        <div id="taskEntryDiv">
+            <input type="text" id="taskEntryInput">
+            <button onclick="addTaskToView()" id="taskEntryButton">
+                I want to do this!
+            </button>
+        </div>
+
+        <div id="activeTasksDiv">
+            <!-- <h3>Active</h3>
+            <div id="task1">
+                <button task-id="task1" onclick="trashToggleTaskFromView()">X</button>
+                <input type="checkbox" id="task-id" onchange="archiveToggleTaskFromView(this)">
+                <label for="task1"><span>Buy groceries</span></label><br>
+            </div>
+
+            <div id="task2">
+                <button task-id="task2" onclick="trashToggleTaskFromView()">X</button>
+                <input type="checkbox" task-id="task2" onchange="archiveToggleTaskFromView(this)">
+                <label for="task2"><span>Go to the gym</span></label><br>
+            </div> -->
+        </div>
+
+        <div id="archivedTasksDiv">
+            <!-- <h3>Archive</h3>
+            <div id="task3">
+                <button task-id="task3" onclick="trashToggleTaskFromView()">X</button>
+                <input type="checkbox" task-id="task3" onchange="archiveToggleTaskFromView(this)" checked>
+                <label for="task3"><span><s>Buy Milk</s></span></label><br>
+            </div>
+
+            <div id="task4">
+                <button task-id="task4" onclick="trashToggleTaskFromView()">X</button>
+                <input type="checkbox" task-id="task4" onchange="archiveToggleTaskFromView(this)" checked>
+                <label for="task4"><span><s>Finish work</s></span></label><br>
+            </div> -->
+        </div>
+    </body>
+
+    <script>
+        renderView();
+    </script>
+
+</html>
